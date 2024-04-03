@@ -7,7 +7,7 @@ using Product.Shared;
 
 namespace Product.Application.Features.Queries.GetAllProduct;
 
-public record GetAllProductsResponse(int Id, string Name, string Code);
+public record GetAllProductsResponse(int Id, string Name, string Code,decimal Price);
 public record GetAllProductsQuery : IRequest<Result<List<GetAllProductsResponse>>>;
 
 public class GetAllProductsQueryHandler(IUnitOfWork<int> unitOfWork, IMapper mapper, ICacheService cache) : IRequestHandler<GetAllProductsQuery, Result<List<GetAllProductsResponse>>>

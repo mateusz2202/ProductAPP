@@ -1,0 +1,19 @@
+<h1 id="tableLabel">Produkty</h1>
+
+
+<table *ngIf="products">
+    <thead>
+        <tr>
+            <th>Kod</th>
+            <th>Nazwa</th>
+            <th>Cena</th>           
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.Code}} </td>
+          <td>{{ product.Name }}</td>
+          <td>{{ product.Price }}</td>         
+        </tr>
+    </tbody>
+</table>
