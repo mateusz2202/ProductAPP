@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Application", "Prod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.APITests", "Product.APITests\Product.APITests.csproj", "{C4F6157D-0D8F-4128-AC0E-54742FEF3C14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "productApp", "Front\productApp\productApp.csproj", "{751FBAD6-AA5D-4027-A32B-6569D642C643}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptSQL", "ScriptSQL", "{6BEF4E7B-F584-47FB-9ED8-D3A8DB01041B}"
 	ProjectSection(SolutionItems) = preProject
 		scriptInit.sql = scriptInit.sql
@@ -58,12 +56,6 @@ Global
 		{C4F6157D-0D8F-4128-AC0E-54742FEF3C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F6157D-0D8F-4128-AC0E-54742FEF3C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F6157D-0D8F-4128-AC0E-54742FEF3C14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Release|Any CPU.Build.0 = Release|Any CPU
-		{751FBAD6-AA5D-4027-A32B-6569D642C643}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
